@@ -5,25 +5,26 @@
          point="org.eclipse.debug.core.launchConfigurationTypes">
       <launchConfigurationType
             delegate="btool.configurator.LaunchDelegate"
-            id="BTool.launchConfigurationType2"
+            id="BTool.launchConfigurationType"
             modes="debug, run"
-            name="name">
+            name="BuildTool">
       </launchConfigurationType>
    </extension>
    <extension
          point="org.eclipse.debug.ui.launchConfigurationTypeImages">
       <launchConfigurationTypeImage
-            configTypeID="BTool.launchConfigurationTypeImage"
+            configTypeID="BTool.coolBarButton"
             icon="icons/sample.gif"
-            id="BTool.launchConfigurationTypeImage1">
+            id="BTool.coolBarButton">
       </launchConfigurationTypeImage>
    </extension>
    <extension
          point="org.eclipse.debug.ui.launchConfigurationTabGroups">
       <launchConfigurationTabGroup
             class="btool.configurator.LaunchTabGroup"
-            id="BTool.launchConfigurationTabGroup1"
-            type="BTool.launchConfigurationTabGroup1">
+            description="Swiss scissor knife Builder Tool"
+            id="BTool.launchConfigurationTabGroup"
+            type="BTool.launchConfigurationTabGroup">
       </launchConfigurationTabGroup>
    </extension>
 
